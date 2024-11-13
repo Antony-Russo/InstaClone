@@ -1,0 +1,110 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .post-list {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+    min-height: 100vh;
+  }
+  .homeFailure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+  }
+  .home-failure-img {
+    width: 25%;
+  }
+  .failure-view-heading {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-weight: 500;
+    color: #262626;
+    margin-bottom: 20px;
+  }
+  .failure-btn {
+    background-color: red;
+    padding: 10px 22px 10px 22px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .failure-btn:hover {
+    background-color: #3b82f6;
+  }
+  .failureView-content-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+  }
+  .failure-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #262626;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .homeFailure-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 90vh;
+    }
+    .home-failure-img {
+      width: 15%;
+    }
+    .failure-view-heading {
+      font-family: 'Roboto';
+      font-size: 14px;
+      font-weight: 500;
+      color: #262626;
+      margin-bottom: 10px;
+    }
+    .failure-btn {
+      background-color: red;
+      padding: 8px 14px 8px 14px;
+      border-radius: 5px;
+      color: white;
+      font-size: 8px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .failure-btn:hover {
+      background-color: #3b82f6;
+    }
+    .failureView-content-home {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 75vh;
+    }
+    .failure-text {
+      font-family: 'Roboto';
+      font-size: 10px;
+      color: #262626;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  

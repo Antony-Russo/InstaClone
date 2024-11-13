@@ -1,0 +1,132 @@
+.myprofile-list-items {
+    background-color: white;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .profile-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .myprofile-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+    min-width: 1010px;
+    padding: 10px;
+  }
+  .profile-details-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  .myprofile-img {
+    height: 180px;
+    width: 180px;
+  }
+  .profile-list-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55px;
+  }
+  .profile-username {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0%;
+    color: #262626;
+  }
+  .profile-post-container {
+    display: flex;
+  }
+  .profile-posts {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  .profileuser-id {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .userBio {
+    font-size: 16px;
+    text-align: left;
+    color: #262626;
+    font-weight: 400;
+  }
+  .span-profile {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  hr {
+    width: 100%;
+    border: 1px solid #c6c6c8;
+  }
+  .stories-container {
+    margin-top: 62px;
+    margin-bottom: 12px;
+  }
+  .stories-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+  }
+  .stories-list-items {
+    margin-right: 18px;
+  }
+  .stories-img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid rgb(210, 208, 208);
+    padding: 2px;
+  }
+  .post-heading-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .bs-logo {
+    width: 35px;
+    height: 25px;
+    margin-right: 4px;
+  }
+  .head-post {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .post-img-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .posts-lists {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  .posts-lists-item {
+    padding: 0%;
+  }
+  .post-logo {
+    width: 330px;
+    height: 330px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  .nopost-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 45vh;
+  }
+  .nopost-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .nopost-head {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  

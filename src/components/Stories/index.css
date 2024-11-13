@@ -1,0 +1,39 @@
+.userstories-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.story-container {
+  width: 70%;
+  max-width: 1100px;
+  margin-top: 40px;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin: 0;
+}
+.slick-name {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  max-width: 120px;
+}
+.loader-container-story {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}

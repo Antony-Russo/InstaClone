@@ -1,0 +1,128 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.login-card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.login-logo {
+  width: 482px;
+  height: 273px;
+  top: 326px;
+  left: 160px;
+  margin-right: 45px;
+  gap: 0px;
+  opacity: 0px;
+}
+.website-logo {
+  width: 75px;
+  height: 45px;
+  align-self: center;
+}
+
+.logo-head {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+}
+
+.form {
+  width: 386px;
+  height: 358px;
+  top: 283px;
+  left: 824px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto';
+  border-radius: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 6px 18px 8px rgb(215, 212, 212);
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.input {
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: rgb(245, 240, 240);
+  padding-left: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  border-radius: 2px;
+  font-weight: 400;
+}
+.login-btn {
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgb(46, 127, 234);
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+}
+.error-msg {
+  color: red;
+  font-size: 12px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    padding: 25px;
+  }
+  .login-logo {
+    display: none;
+  }
+  .website-logo {
+    width: 45px;
+    height: 25px;
+    align-self: center;
+  }
+
+  .logo-head {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+  }
+  .form {
+    min-width: 200px;
+    max-width: 300px;
+    padding: 25px;
+    box-shadow: none;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .input {
+    font-size: 11px;
+  }
+  .login-btn {
+    font-size: 12px;
+  }
+  .error-msg {
+    font-size: 10px;
+  }
+}

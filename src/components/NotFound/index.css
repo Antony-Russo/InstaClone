@@ -1,0 +1,38 @@
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    font-family: 'Roboto';
+  }
+  .notfound-img {
+    margin-top: 85px;
+    width: 18%;
+  }
+  .notfound-head {
+    margin-top: 15px;
+    color: #262626;
+    font-size: 22px;
+  }
+  .notfound-description {
+    margin-top: 5px;
+    color: #989898;
+    font-size: 16px;
+    max-width: 450px;
+    text-align: center;
+  }
+  .notfound-btn {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(69, 179, 230);
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .notfound-btn:hover {
+    background-color: rgb(37, 191, 104);
+  }
+  
